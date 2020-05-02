@@ -9186,6 +9186,23 @@ main {
     grid-column: 4 / 10;
     grid-row: 4 / 5; }
   body .content {
+    grid-column: 6 / 11; }
+  body .image {
+    grid-row: 5 / 13; }
+  body .promo {
+    grid-column: 1 / 13; }
+    body .promo .call {
+      grid-column: 1 / 2; }
+    body .promo .action {
+      grid-column: 5 / 7; } }
+
+@media screen and (min-width: 1400px) {
+  body .logo {
+    grid-column: 2 / 4; }
+  body .header {
+    grid-column: 4 / 10;
+    grid-row: 4 / 5; }
+  body .content {
     grid-column: 5 / 9;
     grid-row: 7 / 10; }
   body .image {
@@ -9528,6 +9545,43 @@ main {
 @media screen and (min-width: 1366px) {
   body main {
     background-image: url("images/fondo1366.jpg"); }
+  body .logo {
+    margin-left: -4rem; }
+  body .header .comming__title {
+    margin-left: 0;
+    margin-top: 0;
+    font-size: 2rem; }
+  body .content {
+    margin-top: 0rem;
+    padding-right: 0; }
+    body .content .promotion__text {
+      font-size: 1.5rem; }
+    body .content .promotion__question {
+      font-size: 2.5rem;
+      margin-top: 0.8rem; }
+    body .content .promotion__answer {
+      text-align: justify;
+      line-height: 1.2rem;
+      margin-top: 0.6rem;
+      font-size: 1.2rem; }
+  body .promo .call {
+    margin-left: 0.5rem;
+    margin-right: -7rem;
+    margin-top: -.7rem; }
+    body .promo .call__text {
+      font-size: 1.8rem;
+      line-height: 2.8rem; }
+  body .promo .action__button {
+    height: 50px;
+    border-radius: 30px; }
+    body .promo .action__button--text {
+      font-size: 1.8rem; }
+  body .info {
+    margin-top: 0rem; }
+    body .info__text {
+      font-size: 0.5rem; } }
+
+@media screen and (min-width: 1400px) {
   body .logo {
     margin-left: -4rem; }
   body .header .comming__title {
